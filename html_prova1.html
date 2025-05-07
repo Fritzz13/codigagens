@@ -5,24 +5,23 @@
     <title>DELTARUNE tomorrow.</title>
   </head>
   <body>
-    <h1>Avaliação 1</h1>
-    <ul>
-      <li><a href="https://i.kym-cdn.com/photos/images/newsfeed/003/010/227/d1a.jpeg" 
-          target="_blank">Exemplo de imagem</a></li>
-      <li><a href="https://i.kym-cdn.com/photos/images/newsfeed/003/010/227/d1a.jpeg" 
-          target="_blank">Exemplo de tabela</a></li>
-      <li><a href="https://i.kym-cdn.com/photos/images/newsfeed/003/010/227/d1a.jpeg" 
-          target="_blank">Exemplo de formulário</a></li>
-    </ul>
+    <header>
+      <h1>Avaliação 1</h1>
+      <ul>
+        <li><a href="#imagem">Exemplo de imagem</a></li>
+        <li><a href="#tabela">Exemplo de tabela</a></li>
+        <li><a href="#formulario">Exemplo de formulário</a></li>
+      </ul>
+    </header>
 
-    <h2>Esse é um uso de imagem</h2>
+    <h2 id="imagem">Esse é um uso de imagem</h2>
     <figure>
-      <img src="https://lh3.googleusercontent.com/drive-storage/AJQWtBNDD0YH8_1DpW-IWLWWlfxL6VPpar37iobG7zqKqjoa6yOJBRpOtDDetnGG9mgXg6upUaI74Qo4ygNUNC2qxCjJtnuRsxtaJcdYtO1eoDhKn5E=w1912-h962"
+      <img src="https://i.imgur.com/8NmcC1c.png"
       width="250px" alt="Logo do OtterSQL"/>
       <legend>Mascote Otter SQL</legend>
     </figure>
 
-    <h2>Esse é um uso de tabela</h2>
+    <h2 id="tabela">Esse é um uso de tabela</h2>
     <table> <tr>
         <th>Tecnologia</th>
         <th>Nome do mascote</th>
@@ -37,7 +36,19 @@
         <td>Marmota</td>
     </tr> </table>
 
-    <h2>Trabalhe conosco</h2>
-    <p>Nome [KRIS DETUNE]</p>
+    <h2 id="formulario">Trabalhe conosco</h2>
+    <label>Nome</label> <input placeholder="Ex: João das Neves" /> <div>
+    <label>Email</label> <input placeholder="Ex: joao.neves@winterfell.com" /> </div>
+    <label>Fale mais sobre você</label> <textarea cols="50" rows="10"></textarea> <div>
+    <label>Receber emails com promoções?</label><input type="checkbox" /> </div>
+    <button>Enviar</button>
+
+    <footer>
+      <h3>Entre em contato</h3>
+      <a href="http://winterfell.com" target="_blank">contato@winterfell.com</a>
+      <a href="http://winterfell.com" target="_blank">+55 (83) 3532-1475</a>
+      <div>© Avaliação</div>
+    </footer>
+    <!-- <img src="https://i.kym-cdn.com/photos/images/newsfeed/003/010/227/d1a.jpeg" /> -->
   </body>
 </html>
